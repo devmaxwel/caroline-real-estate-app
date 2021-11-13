@@ -1,0 +1,19 @@
+.actions {
+    padding: 2.0rem;
+    text-align: right;
+    font-size: 1.5rem;
+    
+  }
+
+
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #77002e;
+    background-color: #77002e;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin: -15px 15px;
+    opacity: 0.4;
+  }

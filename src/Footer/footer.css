@@ -1,0 +1,121 @@
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #510400;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  opacity: 0.9;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec{
+    margin-right: 20px;
+}
+
+footer .container  .sec.aboutus{
+    width: 40%;
+}
+
+footer .container  h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2:before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 19%;
+    height: 2px;
+    background: #19b2ff;
+}
+
+footer .container  .sec.aboutus p{
+    color: #fff;
+}
+
+.sci{
+    margin-top: 20px;
+    display: flex;
+    margin-right: -20px;
+}
+.sci li{
+    list-style: none;
+}
+
+.sci li{
+    justify-content: space-around;
+    margin: 5px 10px;
+    border-radius: 4px;
+    padding: 12px 13px;
+    background: #fff;  
+}
+
+.sci i{
+    font-size: 1.5rem;
+}
+
+.sci li i:hover{
+    color: #510400;
+}
+
+.quicklinks{
+    position: relative;
+    width: 25%;
+}
+.quicklinks ul{
+    list-style: none;
+}
+
+.quicklinks li a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+    
+
+
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+    color: #fff;
+    
+}
+
+.contact .info li span{
+    margin-right: 10px;
+}
+
+.contact .info li i{
+    font-size: 1.5rem;
+}
+
+.contact .info li a{
+    text-decoration: none;
+    color: #fff;
+}
+

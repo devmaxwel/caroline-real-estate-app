@@ -1,0 +1,112 @@
+.header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #510400;
+    padding: 0 10%;
+    
+}
+
+.logo{
+    font-size: 2rem;
+    color:  #fff;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 0;
+    margin: 0;
+
+}
+
+.active a{
+  color: #fff;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-family: 'Ubuntu', sans-serif
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: #ffd;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* padding: 20px 20px;
+    background: white;
+    transition: 0s; */
+  }
+
+ 
+  .actions {
+    padding: 1.5rem;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active{
+    color: #77002e;
+  }
+
+  .menu{ 
+    background-image: url(../../Images/menu.svg);
+    background-size: contain;
+    height:40px;
+    width:40px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-50%, 25%);
+  }
+
+  @media  screen and (min-width: 1080px) {
+     .menu{
+       display: none;
+   
+     }
+
+  }
+
+  @media screen and (max-width: 1080px) {
+      nav ul li{
+          display: none;
+      }
+
+      .actions{
+        display: none;
+      }
+
+      
+      
+  }
+
+

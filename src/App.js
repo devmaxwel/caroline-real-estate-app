@@ -1,0 +1,47 @@
+import React from "react";
+import { Switch, Route} from 'react-router-dom';
+import Layout from "./Components/Layout/Layout";
+import HomesData from '../src/Web/Homes/HomesData';
+import Profile from "./Web/RealtorProfile/Profile";
+import ContactForm from "./Components/Contact/ContacForm";
+import Slider from './Home/Slder'
+
+
+
+
+function App() {
+  return (
+
+    <Layout>
+
+    <Switch>
+
+    <Route path='/home' exact={true}>
+
+        <Slider />
+        
+      </Route>  
+
+     <Route path='/realtor-profile' >
+
+        <Profile />
+         </Route>
+
+         <Route path='/rentals'>
+
+           <HomesData />
+         </Route>
+
+         <Route path='/contact'>
+
+           <ContactForm />
+         </Route>
+
+    
+    </Switch>
+  
+    </Layout>
+  );
+}
+
+export default App;

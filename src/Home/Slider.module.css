@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    
+}
+.icon{
+    font-size: 2rem;
+}
+
+.actions {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
