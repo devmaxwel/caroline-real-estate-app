@@ -10,7 +10,7 @@ function MainNavigation() {
             <h1 className="logo">Fanaka Oasis Realtors</h1>
             <ul className={responsive ? "nav-links-mobile" : "nav-links"}
                 onClick={() => setIsResponsive(false)}>
-                <Link to='/home' className="home"><li>Home</li></Link>
+                <Link to='/' className="home"><li>Home</li></Link>
                 <Link to='/realtor-profile' className="about"><li>About</li></Link>
                 <Link to='/rentals' className="rentals"><li>rentals</li></Link>
               <div className="actions">

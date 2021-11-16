@@ -16,7 +16,7 @@ function App() {
 
     <Switch>
 
-    <Route path='/home' exact={true}>
+    <Route path='/' exact={true}>
 
         <Slider />
         
