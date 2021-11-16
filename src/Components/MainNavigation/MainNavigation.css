@@ -84,6 +84,7 @@
           display: flex;
           position: absolute;
           top: 15px;
+          font-size: 1.3em;
           left: 0;
           margin: 5px;
       }
