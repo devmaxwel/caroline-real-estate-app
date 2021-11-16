@@ -23,7 +23,6 @@ function Footer() {
                         <h2>Quick Links</h2>
                         <ul>
                             <li><Link>Home</Link></li>
-                           <li> <Link>FAQ</Link></li>
                           <li>  <Link>Privacy Policy</Link></li>
                            <li> <Link>Help</Link></li>
                             <li><Link>Terms & Conditions</Link></li>
@@ -61,6 +60,7 @@ function Footer() {
 
         <div class="copyrightText">
             <p>Copyright  ©2021 Fanaka Oasis Realtors. All Rights Reserved</p>
+            <p><Link>[Developed By DevMaxwel]</Link></p>
         </div>
 
         </div>

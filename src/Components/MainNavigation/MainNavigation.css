@@ -1,0 +1,109 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(15, 8, 8);
+    height: 75px;
+}
+.logo{
+    font-size: 1.7rem;
+    color:  #fff;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 0;
+    margin: 5px;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    width: 75%;
+    margin: 5px;
+
+}
+
+.home,.about,.rentals{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+.nav-links button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.actions {
+    padding: 0rem;
+    text-align: center;
+    top: 20px;
+    left: 0;
+    margin: 0;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+  }
+
+  .mobile-menu-icon{
+      display: none;
+  }
+
+  @media screen and(max-width: 1200px){
+      .nav-links{
+          display: none;
+      }
+      
+      .mobile-menu-icon{
+          display: block;
+          font-size: 30px;
+          position: absolute;
+          width: 30px;
+          outline: none;
+          color: #fff;
+          cursor: pointer;
+          outline: none;
+          top: 15px;
+          right: 25px;
+          border: none;
+
+      }
+
+      .nav-links-mobile{
+          position: absolute;
+          display: flex;
+          background-color:maroon;
+          list-style: none;
+          left: 0;
+          top: 75px;
+          transition: all 0.5s ease-in-out;
+          width: 100%;
+          z-index: 999;
+          
+      }
+
+      .home,.about,.rentals{
+          color: #fff;
+          padding: 32px;
+          width: 100%;
+          transition: all 0.5s ease-in-out;
+          text-align: center;
+         
+      }
+
+     
+  }

@@ -6,9 +6,12 @@ import SkylineApart from '../../Data/SkylineApart';
 import G01 from '../../Data/G01';
 import Skyline from '../../Data/Skyline';
 import DennisPrit from '../../Data/DennisPrit';
+import Footer from '../../Footer/Footer';
 
  function Houses(props) {
+
     return (
+        <div>
         <div className={classes.ul} >
 
            <div className={classes.image}>
@@ -101,6 +104,9 @@ Roof top gym.pool.bar.restaurant.steam sauna</p>
          
 
            {props.children} 
+        
+        </div>
+        <Footer />
         </div>
     )
 }
