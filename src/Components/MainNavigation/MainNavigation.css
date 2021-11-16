@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(15, 8, 8);
+    background:hsla(0, 87%, 17%, 0.932);
     height: 75px;
+    width: 100%;
 }
 .logo{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color:  #fff;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
@@ -19,7 +20,6 @@
     display: flex;
     justify-content: flex-end;
     list-style-type:none;
-    width: 75%;
     margin: 5px;
 
 }
@@ -31,6 +31,21 @@
     cursor: pointer;
     margin: 0 10px;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+
+}
+
+.home:hover{
+    color: #fff;
+}
+
+.about:hover{
+    color: #fff;
+}
+
+.rentals:hover{
+    color: #fff;
 }
 
 
@@ -63,7 +78,16 @@
       display: none;
   }
 
-  @media screen and(max-width: 1200px){
+  @media(max-width: 980px){
+     
+      .logo{
+          display: flex;
+          position: absolute;
+          top: 15px;
+          left: 0;
+          margin: 5px;
+      }
+
       .nav-links{
           display: none;
       }
@@ -86,13 +110,17 @@
       .nav-links-mobile{
           position: absolute;
           display: flex;
-          background-color:maroon;
+          flex-direction: column;
+          background-color:#c53f3f;
           list-style: none;
           left: 0;
           top: 75px;
           transition: all 0.5s ease-in-out;
           width: 100%;
-          z-index: 999;
+          height: auto;
+          z-index: 4;
+          margin: 0;
+          
           
       }
 
