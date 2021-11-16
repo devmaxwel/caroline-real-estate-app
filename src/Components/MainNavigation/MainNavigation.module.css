@@ -88,7 +88,7 @@
     transform: translate(-50%, 25%);
   }
 
-  @media  screen and (min-width: 1080px) {
+  @media  screen and (min-width: 1200px) {
      .menu{
        display: none;
    
@@ -96,7 +96,7 @@
 
   }
 
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1200px) {
       nav ul li{
           display: none;
       }

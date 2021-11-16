@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Footer() {
     return (
+        <div>
         <footer>
             <div className="container">
                 <div className="sec aboutus">
@@ -57,6 +58,12 @@ function Footer() {
 
                 </div>
         </footer>
+
+        <div class="copyrightText">
+            <p>Copyright  ©2021 Fanaka Oasis Realtors. All Rights Reserved</p>
+        </div>
+
+        </div>
     )
 }
 

@@ -59,12 +59,12 @@ footer .container  .sec.aboutus p{
     justify-content: space-around;
     margin: 5px 10px;
     border-radius: 4px;
-    padding: 12px 13px;
+    padding: 5px 13px;
     background: #fff;  
 }
 
 .sci i{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 .sci li i:hover{
@@ -118,4 +118,49 @@ footer .container  .sec.aboutus p{
     text-decoration: none;
     color: #fff;
 }
+
+.contact .info li span:nth-child(1){
+    color: #fff;
+    font-size:20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: #fff;
+}
+
+.copyrightText{
+    width: 100%;
+    background: #510400;
+    color: #fff;
+    padding: 8px 50px;
+}
+
+@media(max-width: 991px){
+    footer{
+        padding: 40px;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .container .sec.sec.aboutus,.quicklinks,.contact{
+        width: 100%;
+    }
+
+    .copyrightText{
+        padding: 8px 20px;
+        
+    }
+    
+}
+
+
+
 

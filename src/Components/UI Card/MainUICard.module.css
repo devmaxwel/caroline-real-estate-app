@@ -4,5 +4,6 @@
     box-shadow: 0 2px 8px rgba(158, 76, 76, 0.3);
     width: 95%;
     overflow: hidden;
-    margin: 40px;
+    margin: 20px;
+    height: auto;
   }
