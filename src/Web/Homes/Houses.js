@@ -24,9 +24,6 @@ import Footer from '../../Footer/Footer';
                     <div className={classes.desc}>
                         <h2>801, Skyline Apartments</h2>
                         <h2>Karen, Nairobi</h2>
-                        <p>3 bed plus dsq
-                            Roof top gym.pool.bar.restaurant, </p>
-                        <p>steam sauna.two fast elevator.borehole.automatic generator</p>
                         <h2 className={classes.price}>$160 / Night</h2>
                     </div>
                     <div className={classes.actions}>
@@ -44,9 +41,7 @@ import Footer from '../../Footer/Footer';
                 <div className={classes.desc}>
                     <h2>GO1, Skyline Apartments</h2>
                     <h2>Karen, Nairobi</h2>
-                    <p>3 bed plus dsq
-                        Roof top gym.pool.bar.restaurant, </p>
-                    <p>steam sauna.two fast elevator.borehole.automatic generator</p>
+                   
                     <h2 className={classes.price}>$180 / Night</h2>
                 </div>
                 <div className={classes.actions}>
@@ -66,9 +61,7 @@ import Footer from '../../Footer/Footer';
             <div className={classes.desc}>
                     <h2>102, Skyline Apartments</h2>
                     <h2>Karen, Nairobi</h2>
-                    <p>3 bed plus dsq.
-Roof top gym.pool.bar.restaurant.steam sauna</p>
-                    <p> two fast elevator, borehole , automatic generator</p>
+                  
                     <h2 className={classes.price}>$190 / Night</h2>
              </div>
                 <div className={classes.actions}>
@@ -88,9 +81,6 @@ Roof top gym.pool.bar.restaurant.steam sauna</p>
             <div className={classes.desc}>
                     <h2>Dennis Prit Garden</h2>
                     <h2>Lavington, Nairobi</h2>
-                    <p>3 bed plus dsq.
-Roof top gym.pool.bar.restaurant.steam sauna</p>
-                    <p> two fast elevator, borehole , automatic generator</p>
                     <h2 className={classes.price}>$170 / Night</h2>
                    
                 </div>
