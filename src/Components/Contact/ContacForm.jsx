@@ -44,7 +44,7 @@ import './Form.css';
 
                                         <textarea class="form-control" placeholder="Type your message" required></textarea>
                                             <div class="button mt-4 text-left"> 
-                                            <button class="btn btn-dark">Send</button> 
+                                            <button class="btn btn-dark">Send Message</button> 
                                             </div>
                                            </fieldset>
                                        </form>

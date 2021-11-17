@@ -1,25 +1,30 @@
 .wrapper {
-  height: auto;
+  height: 100%;
   background: #000;
-  background: url("https://i.imgur.com/g63vXfd.jpg")no-repeat;
+  background: url("https://i.imgur.com/g63vXfd.jpg");
   background-size: cover;
-  width: 100%;
+  width:95%;
+  margin: 5px;
+
+
 }
 
 .overlay {
   width: 100%;
-  height: auto;
-  background: rgba(0, 0, 0, 0.8)
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  margin-right:auto;
+  background-size: contain;
 }
 
 .contact-us {
   margin-top: 50px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .contact-us h3,
 p {
-  color: #fff
+  color: #fff;
 }
 
 .address {
@@ -28,7 +33,7 @@ p {
 }
 
 .address span {
-  color: #7B1FA2
+  color:  #19b2ff;
 }
 
 .icons {
@@ -43,24 +48,24 @@ p {
 }
 
 .icons i {
-  font-size: 20px
+  font-size: 20px;
 }
 
 .forms {
-  padding: 20px
+  padding: 20px;
 }
 
 .inputs input {
   margin-bottom: 13px;
   border: none;
-  border-bottom: 2px solid #eee
+  border-bottom: 2px solid #eee;
 }
 
 .inputs input:focus {
   margin-bottom: 13px;
   border: none;
   border-bottom: 2px solid #7B1FA2;
-  box-shadow: none
+  box-shadow: none;
 }
 
 .inputs textarea {
@@ -68,7 +73,7 @@ p {
   border: none;
   border-bottom: 2px solid #eee;
   width: 100%;
-  resize: none
+  resize: none;
 }
 
 .inputs textarea:focus {
@@ -76,9 +81,9 @@ p {
   border: none;
   border-bottom: 2px solid #7B1FA2;
   box-shadow: none;
-  resize: none
+  resize: none;
 }
 
 .form-control {
-  padding: .375rem .25rem
+  padding: .375rem .25rem;
 }
