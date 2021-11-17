@@ -2,9 +2,9 @@ import React from "react";
 import { Switch, Route} from 'react-router-dom';
 import Layout from "./Components/Layout/Layout";
 import HomesData from '../src/Web/Homes/HomesData';
-import Profile from "./Web/RealtorProfile/Profile";
 import ContactForm from "./Components/Contact/ContacForm";
 import Slider from './Home/Slder'
+import Profile from "./Web/RealtorProfile/Profile.jsx";
 
 
 
@@ -24,7 +24,7 @@ function App() {
 
      <Route path='/realtor-profile' >
 
-        <Profile />
+         <Profile />
          </Route>
 
          <Route path='/rentals'>
