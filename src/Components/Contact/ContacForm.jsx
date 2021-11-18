@@ -40,7 +40,12 @@ import './Form.css';
                                            <fieldset>
                                                 <input type="text" class="form-control" placeholder="Name" required /> 
 
+                                                <input type="text" class="form-control" placeholder="Number" required /> 
+
+
                                         <input type="text" class="form-control" placeholder="Email" required /> 
+
+                                        <input type="text" class="form-control" placeholder="Subject" required /> 
 
                                         <textarea class="form-control" placeholder="Type your message" required></textarea>
                                             <div class="button mt-4 text-left"> 
