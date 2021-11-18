@@ -23,8 +23,8 @@ import './Form.css';
                                     </div>
                                 </div>
                                 <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-envelope"></i></span>
-                                    <div class="address text-left"> <span>Address</span> 
-                                    <p>Email Us</p>
+                                    <div class="address text-left"> <span>Email Us</span> 
+                                    <p>Have Any Question?</p>
                                     </div>
                                 </div>
                             </div>
