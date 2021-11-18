@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Profile.module.css';
 import caro from '../../Images/caro.jpeg';
+import logo from '../../Images/favicon.jpeg'
 
 
 
@@ -25,7 +26,11 @@ function Profile() {
                    <li><i class="fab fa-linkedin"></i></li>
                    <li><i class="fab fa-instagram"></i></li>
                    <li><i class="fab fa-twitter"></i></li>
-           </div>
+                     </div>
+                     <div className={classes.fanakalogo}>
+                         <img src={logo} alt="" />
+                         <h2>You are All Welcome</h2>
+                     </div>
                </div>
 
 

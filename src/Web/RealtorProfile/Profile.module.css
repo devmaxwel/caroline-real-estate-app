@@ -11,7 +11,7 @@
 }
 
 .profile img{
-   width: 450px;
+   width: 550px;
    height: 80%;
 }
 
@@ -51,6 +51,10 @@
     transition: 0.5s ease-in-out;
 }
 
+.fanakalogo h2{
+    display: none;
+}
+
 @media(max-width: 950px){
     .container{
         display: block;
@@ -86,6 +90,17 @@
         list-style: none;
         margin: 15px;
         font-size: 20px;
+    }
+
+    .fanakalogo img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .fanakalogo h2{
+        display: block;
+        font-style: italic;
+        margin-left: 80px;
     }
 
 }
