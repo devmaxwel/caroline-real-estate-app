@@ -51,12 +51,24 @@
     transition: 0.5s ease-in-out;
 }
 
-@media screen and(max-width: 950px){
+@media(max-width: 950px){
     .container{
         display: block;
         grid-template-columns: 1fr;
         display: grid;
         
     }
+    .profile{
+       margin: 20px;
+       justify-content: center;
+       margin-left: 100px;
+    }
+
+    .profile img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+     }
+
 }
 
