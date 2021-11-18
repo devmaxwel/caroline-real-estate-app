@@ -22,7 +22,7 @@ import './Form.css';
                                         <p>+254 728-479-603</p>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="far fa-envelope"></i></span>
+                                <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-envelope"></i></span>
                                     <div class="address text-left"> <span>Address</span>
                                         <p>fanakaoasisluxurioushomes@gmail.com</p>
                                     </div>
