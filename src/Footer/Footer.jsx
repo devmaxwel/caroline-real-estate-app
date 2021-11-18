@@ -36,12 +36,12 @@ function Footer() {
                            
                            <li>
                            <span><i class="fas fa-map-marker-alt"></i></span>
-                            <span>647 Linda Street <br /> Phoenix Valley, PA 19460, <br />USA</span>
+                            <span>Kilimani<br /> Yaya centre,<br />KENYA</span>
                            </li>
 
                            <li>
                            <span><i class="fas fa-phone-volume"></i></span>
-                           <p><Link>+254704-407-239</Link> <br /><Link>+254790-831-679</Link></p>
+                           <p><Link>+254798-725-766</Link> <br /><Link>+254728-479-603</Link></p>
                            </li>
 
                      
