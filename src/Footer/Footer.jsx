@@ -48,7 +48,7 @@ function Footer() {
                           
                            <li>
                            <span><i class="fas fa-envelope-square"></i></span>
-                           <p><Link>fanakaukgoods@gmail.com</Link></p>
+                           <p><Link>fanakaoasisluxurioushomes@gmail.com</Link></p>
                            </li>
 
                         </ul>
