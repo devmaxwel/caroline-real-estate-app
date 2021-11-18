@@ -12,7 +12,7 @@ function MainNavigation() {
                 onClick={() => setIsResponsive(false)}>
 
                 <Link to='/' className="home"><li>Home</li></Link>
-                <Link to='/realtor-profile' className="about"><li>About</li></Link>
+                <Link to='/realtor-profile' className="about"><li>Realtor</li></Link>
                 <Link to='/rentals' className="rentals"><li>Rentals</li></Link>
               <div className="actions">
              <Link to='/contact'> <button>Contact Us</button></Link>
