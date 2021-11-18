@@ -70,5 +70,23 @@
         border-radius: 50%;
      }
 
+     .socials li i{
+        padding: 5px 5px;
+        background: #510400;
+        color: #fff;
+        border-radius: 4px;
+    }
+    .desc{
+        width: auto;
+        margin:5px;
+        flex-wrap: wrap;
+    
+    }
+    .socials li{
+        list-style: none;
+        margin: 15px;
+        font-size: 20px;
+    }
+
 }
 
