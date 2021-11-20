@@ -3,7 +3,7 @@ import { Switch, Route} from 'react-router-dom';
 import Layout from "./Components/Layout/Layout";
 import HomesData from '../src/Web/Homes/HomesData';
 import ContactForm from "./Components/Contact/ContacForm";
-import Slider from './Home/Slder'
+import Slider from './Home/Slder';
 import Profile from "./Web/RealtorProfile/Profile.jsx";
 
 

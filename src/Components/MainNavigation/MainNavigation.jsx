@@ -20,13 +20,12 @@ function MainNavigation() {
             </ul>
 
             <div className="mobile-menu-icon" onClick ={() => setIsResponsive(!responsive)}>
-                {responsive ? <i class="fas fa-times"></i> 
+                {responsive ? <i class="fas fa-times"></i>
                 : <i class="fas fa-bars"></i>}
-
             </div>
 
         </nav>
     )
 }
 
-export default MainNavigation
+export default MainNavigation;
